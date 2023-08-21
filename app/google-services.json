@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "836508405413",
+    "firebase_url": "https://government-polytechnic-jaunpur-default-rtdb.firebaseio.com",
+    "project_id": "government-polytechnic-jaunpur",
+    "storage_bucket": "government-polytechnic-jaunpur.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836508405413:android:b6b44ae6aebb5c22f8474c",
+        "android_client_info": {
+          "package_name": "com.admin.mycollegeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836508405413-r9b8lmrv9db9eldied1idlq0k1e43bna.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqChiazv6avixy8m0c7_oF8x69HbTbQ-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836508405413-r9b8lmrv9db9eldied1idlq0k1e43bna.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836508405413:android:ef80581791d6f4e9f8474c",
+        "android_client_info": {
+          "package_name": "com.user.gpjaunpur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836508405413-r9b8lmrv9db9eldied1idlq0k1e43bna.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqChiazv6avixy8m0c7_oF8x69HbTbQ-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836508405413-r9b8lmrv9db9eldied1idlq0k1e43bna.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

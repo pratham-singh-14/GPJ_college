@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+  android:id="@+id/referesh"
+    android:layout_height="match_parent"
+
+    tools:context=".pdf.PdfActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <EditText
+        android:id="@+id/searhtext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/pdfedittext_searchbar"
+        android:drawableLeft="@drawable/ic_searchbar"
+        android:drawablePadding="6dp"
+        android:hint="Search here"
+        android:padding="8dp" />
+
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+
+        android:id="@+id/shimmer_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_below="@id/searhtext"
+        android:layout_gravity="center"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <include layout="@layout/shimmeranimation" />
+
+            <include layout="@layout/shimmeranimation" />
+
+            <include layout="@layout/shimmeranimation" />
+
+            <include layout="@layout/shimmeranimation" />
+
+            <include layout="@layout/shimmeranimation" />
+
+            <include layout="@layout/shimmeranimation" />
+
+            <include layout="@layout/shimmeranimation" />
+
+            <include layout="@layout/shimmeranimation" />
+
+            <include layout="@layout/shimmeranimation" />
+
+            <include layout="@layout/shimmeranimation" />
+
+            <include layout="@layout/shimmeranimation" />
+
+            <include layout="@layout/shimmeranimation" />
+
+            <include layout="@layout/shimmeranimation" />
+
+            <include layout="@layout/shimmeranimation" />
+
+            <include layout="@layout/shimmeranimation" />
+
+            <include layout="@layout/shimmeranimation" />
+
+            <include layout="@layout/shimmeranimation" />
+
+            <include layout="@layout/shimmeranimation" />
+
+            <include layout="@layout/shimmeranimation" />
+
+            <include layout="@layout/shimmeranimation" />
+
+
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/pdfRecycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searhtext"
+
+ />
+    </RelativeLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

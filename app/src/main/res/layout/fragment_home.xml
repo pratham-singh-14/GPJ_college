@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/windowBackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            app:cardElevation="@dimen/cardelevation"
+            android:layout_margin="@dimen/cardmargin3"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+
+            <com.smarteist.autoimageslider.SliderView
+                android:id="@+id/sliderView"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:sliderAnimationDuration="300"
+                app:sliderAutoCycleDirection="back_and_forth"
+                app:sliderAutoCycleEnabled="true"
+                app:sliderIndicatorAnimationDuration="300"
+                app:sliderIndicatorGravity="center_horizontal|bottom"
+                app:sliderIndicatorMargin="15dp"
+                app:sliderIndicatorOrientation="horizontal"
+                app:sliderIndicatorPadding="3dp"
+                app:sliderIndicatorRadius="2dp"
+                app:sliderIndicatorSelectedColor="#DC0404"
+                app:sliderIndicatorUnselectedColor="#FFF"
+                app:sliderScrollTimeInSec="1"
+                app:sliderStartAutoCycle="true" >
+
+
+            </com.smarteist.autoimageslider.SliderView>
+
+        </com.google.android.material.card.MaterialCardView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cardmargin3"
+            android:background="@drawable/cardviewbackground"
+            android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+              app:cardBackgroundColor="@color/white"
+            android:layout_margin="@dimen/cardmargin3"
+            app:cardElevation="@dimen/cardelevation"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/testing">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="22dp"
+                        android:fontFamily="@font/bold"
+                        android:text="Principal"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp" />
+
+
+                </RelativeLayout>
+
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/principal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/cardmargin5"
+                    android:fontFamily="@font/bold"
+                    android:text="MR. RAJ KUMAR"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/cardmargin2"
+                    android:fontFamily="@font/bold"
+                    android:text="-Principal"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/heading"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginRight="@dimen/cardmargin2"
+                    android:layout_marginBottom="15dp"
+                    android:fontFamily="@font/medium"
+                    android:text="@string/principalcalled"
+                    android:textColor="@color/darkcolor"
+                    android:textSize="15dp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="@dimen/cardmargin4"
+            android:layout_marginHorizontal="@dimen/cardmargin3"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/testing"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="22dp"
+                    android:fontFamily="@font/bold"
+                    android:text="About For GP Jaupur"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"/>
+
+
+            </RelativeLayout>
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="250dp"
+       android:src="@drawable/college"
+       android:layout_marginHorizontal="10dp"
+       android:layout_marginTop="25dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Aboutcollege"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/medium"
+                    android:textSize="17sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="@dimen/cardmargin2"
+                    android:textStyle="normal"/>
+
+
+
+</LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_marginHorizontal="@dimen/cardmargin3"
+            android:layout_marginTop="20dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_horizontal"
+                android:background="@color/testing"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+
+                    android:fontFamily="@font/bold"
+                    android:gravity="center_horizontal"
+                    android:text="Our Courses"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/white"
+                android:foregroundGravity="center"
+                />
+        </LinearLayout>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_marginHorizontal="@dimen/cardmargin3"
+            app:cardElevation="@dimen/cardmargin4"
+            >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_horizontal"
+            android:background="@color/testing"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bold"
+
+                android:gravity="center_horizontal"
+                android:text="Contact Details"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            android:layout_marginHorizontal="@dimen/cardmargin3"
+            android:layout_marginTop="8dp"
+            app:cardElevation="@dimen/cardmargin4"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cardmargin3"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:src="@drawable/homee"
+            />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Government Polytechnic Jaunpur"
+                android:fontFamily="@font/medium"
+                android:textStyle="bold"
+                android:textColor="@color/darkcolor"
+                android:textSize="18sp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cardmargin3"
+            android:layout_marginTop="@dimen/cardmargin6"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="7dp"
+
+                android:src="@drawable/location"
+            />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jagdishpur,Jaunpur(Uttar Pradesh)"
+                android:fontFamily="@font/medium"
+                android:textStyle="bold"
+                android:textColor="@color/darkcolor"
+                android:textSize="18sp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cardmargin3"
+            android:layout_marginTop="@dimen/cardmargin6"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="25dp"
+                android:src="@drawable/location"
+
+                android:layout_marginLeft="7dp"
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pin code - "
+               android:fontFamily="@font/medium"
+                android:textStyle="bold"
+                android:textColor="@color/darkcolor"
+                android:textSize="18sp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"/>
+<TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="222002"
+
+                android:textStyle="bold"
+                android:textColor="@color/darkcolor"
+                android:textSize="18sp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="1dp"/>
+
+
+
+        </LinearLayout>
+ <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cardmargin3"
+            android:layout_marginTop="@dimen/cardmargin6"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="18dp"
+
+                android:src="@drawable/ic_gmail"
+                android:layout_marginLeft="7dp"
+            />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="govtpolyjnp@yahoo.co.in"
+               android:fontFamily="@font/medium"
+                android:textStyle="bold"
+                android:textColor="@color/darkcolor"
+                android:textSize="18sp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"/>
+
+
+
+        </LinearLayout>
+
+                <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cardmargin3"
+            android:layout_marginTop="@dimen/cardmargin6"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="18dp"
+                android:src="@drawable/ic_phone"
+
+                android:layout_marginLeft="7dp"
+            />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="05452-261645"
+
+                android:textStyle="bold"
+                android:textColor="@color/darkcolor"
+                android:textSize="18sp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+        <ImageView
+                android:id="@+id/map"
+            android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+            android:scaleType="fitXY"
+            android:layout_marginHorizontal="@dimen/cardmargin3"
+            android:background="?android:attr/windowBackground"
+                android:src="@drawable/map"
+            android:layout_marginBottom="8dp"
+                >
+
+
+
+            </ImageView>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+
+</FrameLayout>

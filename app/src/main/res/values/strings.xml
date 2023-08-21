@@ -1,0 +1,25 @@
+<!--suppress ALL -->
+<resources>
+    <string name="app_name">GP Jaunpur</string>
+    <string name="cs">Computer Science and Engineering</string>
+    <string name="ec">Electronics Engineering</string>
+    <string name="pharmacy">Pharmacy</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="Aboutcollege">Government Polytechnic Jaunpur, founded in 1984, is a government institute of technical education in Jagdishpur, Jaunpur, Uttar Pradesh, India. It is affiliated with the Uttar Pradesh Board of Technical Education and approved by the All India Council for Technical Education. It falls under the East zone (Varanasi) of UPBTE."</string>
+    <string-array name="theme">
+        <item>System Default</item>
+        <item>Dark</item>
+        <item>Light</item>
+
+
+    </string-array>
+<string name="principalcalled">We are evolving a new methodology of education that we call IBA, It represents Introspection, Breakthrough and Achievement. Our focus is to groom students as a complete personality that enables them to use highest technology and remain ethically strong.</string>
+
+<string name="affilated">Government Polytechnic Jaunpur is approved by AICTE Govt. of India and affiliated to Board of Technical Education UP (BTEUP) .</string>
+<string name="Runningcourses">The institution is running various courses in Computer Science, Electronics Engineering is with intake of 75 students in each. and Pharmacy is with intake of 44 student in each.</string>
+
+</resources>

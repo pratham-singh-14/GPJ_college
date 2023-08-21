@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#F5131C32</color>
+    <color name="purple_500">#FF3700B2</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="lightGrey">#AB736C6C</color>
+    <color name="searchWhite">#FFFFFFFF</color>
+    <color name="searchBlack">#000000</color>
+    <color name="testing">#F5131C32</color>
+    <color name="headground">#F5131C32</color>
+
+
+    <color name="red">#C81C05</color>
+
+
+    <color name="colorPrimary">#F5131C32</color>
+    <color name="colorPrimaryDark">#002984</color>
+
+    <color name="textColor">#3f3b3b</color>
+    <color name="grey">#828080</color>
+    <color name="grey1">#4f4f4f</color>
+    <color name="grey2">#d6d6d6</color>
+    <color name="darkcolor">#292727</color>
+
+
+    <color name="titleColor">#1b272c</color>
+
+
+
+
+
+
+
+
+    <color name="colorAccent">#F5131C32</color>
+    <color name="app">#F5131C32</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

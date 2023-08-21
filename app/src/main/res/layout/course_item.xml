@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ app:cardBackgroundColor="@color/white"
+    android:layout_gravity="center_horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="@dimen/cardmargin4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:background="@color/white"
+         android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/courseTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Courses"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/cardmargin3"
+            android:fontFamily="@font/blaclbold"
+            android:textColor="@color/red"
+            android:layout_gravity="center_horizontal"
+            ></TextView>
+
+
+            <ImageView
+                android:id="@+id/courseIcon"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/computerr"></ImageView>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/gradient"/>
+
+
+
+
+
+        <TextView
+            android:id="@+id/courseDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/medium"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="5dp"
+            android:text="@string/Aboutcollege"
+            android:textColor="@color/darkcolor"
+            android:textSize="20sp"></TextView>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/gradient"/>
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

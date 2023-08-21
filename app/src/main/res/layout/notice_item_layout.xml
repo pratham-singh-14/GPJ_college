@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="@dimen/cardmargin4"
+    app:cardBackgroundColor="@color/white"
+    android:layout_marginHorizontal="@dimen/cardmargin3"
+    android:outlineSpotShadowColor="@color/grey"
+    android:outlineAmbientShadowColor="@color/black"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="6dp"
+
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginHorizontal="1dp"
+            android:background="@color/black"></View>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+          android:padding="5dp"
+            android:orientation="horizontal">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="36dp"
+                android:layout_height="40dp"
+                android:src="@drawable/logogpj"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:fontFamily="@font/medium"
+                    android:text="GP  JAUNPUR"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       android:text="Date : "
+                        android:fontFamily="@font/medium"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/text_size0"
+
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="15dp"></TextView>
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       android:text="15 aug 2022"
+
+                        android:textSize="@dimen/text_size0"
+                        android:textColor="@color/black"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       android:text="Time : "
+                        android:fontFamily="@font/medium"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/text_size0"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="15dp"></TextView>
+                    <TextView
+                        android:id="@+id/time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       android:text="12:00"
+                        android:textSize="@dimen/text_size0"
+                        android:textColor="@color/black"
+                        ></TextView>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginHorizontal="1dp"
+            android:background="@color/black"></View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello Guys My Self Pratham"
+            android:textStyle="bold"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/deleteNoticeTitle"
+            android:textSize="17sp"
+            android:textColor="@color/black">
+
+        </TextView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            android:outlineAmbientShadowColor="@color/black"
+            app:shapeAppearance="@color/black"
+            android:outlineSpotShadowColor="@color/black">
+
+            <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scaleType="fitXY"
+
+    android:id="@+id/noticeicon"
+    />
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

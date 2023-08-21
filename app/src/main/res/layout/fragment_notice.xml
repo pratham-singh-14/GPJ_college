@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/referesh"
+    tools:context=".ui.notice.NoticeFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/windowBackground">
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmer_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <include layout="@layout/shimmeranimation"/>
+            <include layout="@layout/shimmeranimation"/>
+            <include layout="@layout/shimmeranimation"/>
+            <include layout="@layout/shimmeranimation"/>
+            <include layout="@layout/shimmeranimation"/>
+            <include layout="@layout/shimmeranimation"/>
+            <include layout="@layout/shimmeranimation"/>
+            <include layout="@layout/shimmeranimation"/>
+            <include layout="@layout/shimmeranimation"/>
+            <include layout="@layout/shimmeranimation"/>
+            <include layout="@layout/shimmeranimation"/>
+            <include layout="@layout/shimmeranimation"/>
+            <include layout="@layout/shimmeranimation"/>
+            <include layout="@layout/shimmeranimation"/>
+            <include layout="@layout/shimmeranimation"/>
+            <include layout="@layout/shimmeranimation"/>
+            <include layout="@layout/shimmeranimation"/>
+            <include layout="@layout/shimmeranimation"/>
+            <include layout="@layout/shimmeranimation"/>
+            <include layout="@layout/shimmeranimation"/>
+
+
+
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/updateNoticeRecycler"/>
+
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

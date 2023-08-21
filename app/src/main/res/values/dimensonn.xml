@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <dimen name="text_margin">16dp</dimen>
+  <dimen name="text_size0">14sp</dimen>
+  <dimen name="text_size1">16sp</dimen>
+  <dimen name="text_size2">17sp</dimen>
+  <dimen name="heading">18sp</dimen>
+  <dimen name="text_size4">19sp</dimen>
+  <dimen name="title">20sp</dimen>
+  <dimen name="text_size6">21sp</dimen>
+  <dimen name="text_size7">22sp</dimen>
+  <dimen name="cardelevation">4dp</dimen>
+  <dimen name="cardmargin1">1dp</dimen>
+
+  <dimen name="cardmargin2">2dp</dimen>
+  <dimen name="cardmargin3">3dp</dimen>
+  <dimen name="cardmargin4">4dp</dimen>
+  <dimen name="cardmargin5">5dp</dimen>
+  <dimen name="cardmargin6">6dp</dimen>
+
+
+</resources>
